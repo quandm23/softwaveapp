@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --color-one : #232323;
+    --color-two : #777777;
+    --color-i : #FF8484;
+    --color-button : #F7D9C4;
+    --color-bg-one : #EFEFEF;
+    --color-bg-two :#31363B;
+    --color-bg-three : #DCE8EB;
+    --color-bg-four : white;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 1199.98px) {
+   .container{
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+@media screen and (max-width: 991.98px) {
+    .container{
+     width: 100%;
+     max-width: 720px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+ }
+
+@media screen and (max-width: 767.98px) {
+    .container{
+     width: 540px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+ }
+ @media screen and (max-width: 575.98px) {
+    .container{
+     width: 100%;
+     max-width: 540px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+ }
+
+
+body{
+    font-family: "DM Sans", sans-serif;
+    color: var(--color-one);
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-one);
+}
+ul{
+    list-style-type: none;
+}
+
+ .inner-button{
+    padding: 25px 45px;
+    border-radius: 10px;
+    border:0;
+    color: var(--color-one);
+    font-weight: 700;
+    cursor: pointer;
+}
+.right{
+    text-align: right;
+}
+.inner-head .inner-decs{
+    font-size: 23px;
+    color: var(--color-two) ;
+    margin-bottom: 0;
+}
+.inner-head .inner-title{
+    font-size: 50px;
+    margin-top: 10px;
+}
+@media screen and (max-width : 991.98px) {
+    .section-ten .inner-head .inner-title{
+        font-size: 40px;
+    }
+  }
+@media screen and (max-width : 767.98px) {
+    .section-ten .inner-head .inner-title{
+        font-size: 35px;
+    }
+  }
